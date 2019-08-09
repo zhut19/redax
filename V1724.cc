@@ -324,7 +324,7 @@ int V1724::ConfigureBaselines(vector <u_int16_t> &end_values,
 	u_int32_t esize = buff[idx]&0xFFFFFFF;	
 	u_int32_t cmask = buff[idx+1]&0xFF;
 	u_int32_t csize = -1;
-	
+
 	idx += 4;
 	// Loop through channels
 	for(unsigned int channel=0; channel<8; channel++){

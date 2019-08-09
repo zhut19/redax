@@ -11,7 +11,6 @@ client = MongoClient("mongodb://daq:WIMPfinder@localhost:27017/admin")
 db = client['xenonnt']
 collection = db['options']
 
-
 run_mode_default_firmware = {
 	"_id": "5d30e9d05e13ab6116c43bf9",
     "name": "default_firmware_settings",
